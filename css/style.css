@@ -1,0 +1,364 @@
+body{
+	font-family: Segoe UI;
+	font-size: 15px;
+}
+#banner{
+	padding-top: 1px;
+	height: 500px;
+	background: url(../images/banner.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#tutorialBanner{
+	height: 200px;
+	background: url(../images/banner.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#welcome{ 
+	position: relative; 
+	top: -40px;
+	width: 30%;
+	padding: 10px;
+	background: #fff;
+	border-radius: 0 50px 0 0px;
+}
+
+#nav{
+	background: rgb(73,199,237);
+	box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link{
+	color: #fff;
+	transition: all 0.7s;
+}
+
+.nav-link:hover{
+	color: pink;
+	transition: all 0.7s;
+}
+
+#btnBar{
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+#btnBar:hover{
+	background: #fff;
+	color: rgb(73,199,237);
+	transition: all 0.7s;
+}
+
+#form{
+	border: 2px solid rgb(73,199,237);
+	width: 50%;
+	margin: auto;
+	padding: 30px;
+	border-radius: 50px 0 50px 0;
+}
+
+#aboutCol1, #aboutCol2{
+	transition: all 0.7s;
+	position: relative;
+	padding: 30px;
+	padding-top: 80px;
+	border-radius: 50px 0 50px 0;
+	box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+#aboutCol1:hover, #aboutCol2:hover{
+	background: rgb(73,199,237);
+	color: #fff;
+	transition: all 0.7s;
+}
+
+#aboutCol1 #fafa, #aboutCol2 #fafa{
+	transition: all 0.7s;
+}
+
+#aboutCol1:hover #fafa, #aboutCol2:hover #fafa{
+	color: #fff;
+	transition: all 0.7s;
+}
+
+#aboutCol1Img{
+	border: 2px solid rgb(73,199,237);
+	padding: 40px;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: -50px;
+	left: 30%;
+	background: url(../images/me2.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+#aboutCol2Img{
+	border: 2px solid rgb(73,199,237);
+	padding: 40px;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: -50px;
+	left: 30%;
+	background: url(../images/seun.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+}
+
+#h1Img{
+	height: 150px;
+	background: url(../images/injection.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*border-radius: 40px 0 40px 0;*/
+	box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+
+}
+
+#h2Img{
+	height: 150px;
+	background: url(../images/spam.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*border-radius: 40px 0 40px 0;*/
+	box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+
+}
+
+#h3Img{
+	height: 150px;
+	background: url(../images/setup.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	/*border-radius: 40px 0 40px 0;*/
+	box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+
+}
+
+#playButton{
+	transition: all 0.7s;
+	position: absolute;
+	margin-top: 260px;
+	margin-left: -80px;
+	background: rgba(73,199,237, 0.6);
+}
+
+#playButton:hover{
+	transition: all 0.7s;
+	background: rgb(73,199,237);
+}
+
+#banner2{
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	padding: 40px;
+	background: rgba(0,0,0,.4);
+	color: #fff;
+}
+
+.getStarted{
+	background: none;
+	color: #fff;
+	border: 1px solid rgb(73,199,237);
+	box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+.getStarted:hover{
+	background: rgb(73,199,237);
+	transition: all 0.7s;
+}
+
+.getStarted2{
+	background: none;
+	color: #fff;
+	border: 1px solid white;
+	box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+.getStarted2:hover{
+	background: white;
+	color: #000;
+	transition: all 0.7s;
+}
+
+.loginBtn{
+	background: rgb(73,199,237);
+	color: #fff;
+}
+
+.loginBtn:hover{
+	box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+	transition: all 0.7s;
+}
+
+#spinner{
+	font-size: 20px;
+	animation: roll 1s linear infinite ;
+}
+
+@keyframes roll {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#col1{
+	background: url('../images/injection.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+}
+
+#col2{
+	background: url('../images/equipment.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+}
+
+#col3{
+	background: url('../images/setup.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+}
+
+#colfemale{
+	background: url('../images/female.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+}
+
+#colmale{
+	background: url('../images/male.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+}
+
+#col11, #col22, #col33{
+	position: absolute;
+	left: 0;
+	padding-top: 5px;
+	padding-left: 10px;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.5);
+	color: /*rgb(73,199,237)*/ #fff;
+}
+
+#step1{
+	background: url('../images/step1.png') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+}
+
+#step2{
+	background: url('../images/step5.png') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+}
+
+#step3{
+	background: url('../images/step2.png') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+}
+
+#step4{
+	background: url('../images/step3.png') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+}
+
+#step5{
+	background: url('../images/step4.png') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+}
+
+#step6{
+	background: url('../images/step6.png') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+}
+
+#aboutImg{
+	background: url('../images/me2.jpg') no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+}
+
+.imgCard{
+	box-shadow: 0 8px 17px 2px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+
+#section{
+	word-spacing: 7px;
+	padding: 30px;
+	background: rgb(73,199,237);
+	border-radius: 0 50px 0 50px;
+}
+
+#important{
+	border: 2px solid rgb(73,199,237);
+	padding: 20px;
+	border-radius: 0 50px 0 50px;
+}
+
+#important2{
+	border: 2px solid rgb(73,199,237);
+	padding: 20px;
+	border-radius: 50px 0 50px 0;
+}
+
+#important3{
+	border: 2px solid rgb(73,199,237);
+	padding: 20px;
+	border-radius: 0 50px 0 50px;
+}
+
+#fafa2{
+	font-size: 30px;
+	color: #fff;
+	padding-left: 20px;
+}
+
+#fafa{
+	font-size: 25px;
+	padding-left: 20px;
+}
+
+footer{
+	background: rgb(5, 18, 76);
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
